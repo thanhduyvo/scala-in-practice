@@ -15,7 +15,9 @@ object MiscRunner {
     println(removeAt(List('a', 'b', 'c', 'd'), 0))
 
     println(show(Sum(Number(1), Number(44))))
+
     println(show(Sum(Prod(Number(2), Var("x")), Var("y"))))
+
     println(show(Prod(Sum(Number(2), Var("x")), Var("y"))))
 
     println(pack(List("a", "a", "a", "b", "b", "b", "b", "b", "c", "c", "a")))
