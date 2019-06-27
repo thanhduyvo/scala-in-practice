@@ -16,8 +16,9 @@ object SortingAndSearchingRunner {
 
     println(qsort(numbers))
 
-    val logLines = List("[mi2 jog mid pet]", "[wz3 34 54 398]", "[a1 alps cow bar]", "[x4 45 21 7]")
-    println(sortLogLines(logLines))
+    val logLines1 = List("[mi2 jog mid pet]", "[wz3 34 54 398]", "[a1 alps cow bar]", "[x4 45 21 7]")
+    val logLines2 = List("[t2 13 121 98]", "[r1 box ape bit]", "[b4 xi me nu]", "[br8 eat nim did]", "[w1 has uni gry]", "[f3 52 54 31]")
+    println(sortLogLines(logLines1))
   }
 
 }
